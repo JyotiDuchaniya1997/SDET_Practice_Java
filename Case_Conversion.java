@@ -11,7 +11,7 @@ public class Case_Conversion {
        
         /* without inbuilt functions */
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Enter the case to which tsring should be converted: \n 1. Uppercase- U \n 2. Lowercase- L\n");
+            System.out.print("Enter the case to which string should be converted: \n 1. Uppercase- U \n 2. Lowercase- L\n");
             char caseType = scanner.next().charAt(0);
             List<Character> str_list = new ArrayList<>();
             StringBuilder str2= new StringBuilder();
